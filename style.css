@@ -125,8 +125,13 @@ transform:scaley(2);
 
 
 @media (max-width:768px) {
-    .navbar{
+
+    .container{
         padding-inline: 20px;
+       
+    }
+    .navbar{
+        padding-inline: 10px;
     }
 
     .link{
@@ -140,14 +145,14 @@ transform:scaley(2);
         width: 100%;
     }
     .left-section h1{
-    font-size: 90px;
+    font-size: 80px;
     line-height: 80px;
     }
 
     .image1{
-        width: 280px;
-        left: 110px;
-        top: -45px;
+        width: 250px;
+        left: 40px;
+        top: 0px;
     }
 
     .image2{
